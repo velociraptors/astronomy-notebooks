@@ -26,8 +26,8 @@ The easiest way to get all of the dependencies in Windows is to use a special Py
 1. Install Python 2.7 and virtualenv. You may also want to install setuptools or distribute.
 2. Download and install binaries for wxPython, iPython, pyreadline, numpy, scipy, matplotlib.
 3. Use pip or easy_install to install tornado, pyzmq, sympy, pyephem, jplephem, de405, sgp4. (I'm pretty sure these libraries can all be installed without a compiler.)
-4. (optional) If you're using regular Python, rather than EPD, you'll need to install or build VTK. Python(x,y) bundles an [installer][vtk-bin] which is listed on the [standard plugins][pxy-plug] page. If you want to try building VTK from source, you'll also need [CMake][cmake], a compiler such as MinGW or Visual Studio, and a very large bottle of whiskey.
-5. [Build Mayavi][mayavi-build] from source. You could also try installing the ETS package from the Python(x,y) standard plugins.
+4. (optional) If you're using regular Python, rather than EPD, you'll need to install or build VTK. Python(x,y) bundles an [installer][vtk-bin] which is listed on the [standard plugins][pxy-plug] page. If you want to try building VTK from source, you'll also need [CMake][cmake], a compiler such as [MinGW][mingw] or Visual Studio, and a very large bottle of whiskey.
+5. [Build Mayavi][mayavi-build] from source. You could also try installing the [ETS package][ets-bin] from the Python(x,y) standard plugins.
 
 [pxy]: http://code.google.com/p/pythonxy/
 [epd]: http://www.enthought.com/products/epd.php
@@ -36,6 +36,8 @@ The easiest way to get all of the dependencies in Windows is to use a special Py
 [pxy-plug]: http://code.google.com/p/pythonxy/wiki/StandardPlugins
 [cmake]: http://www.cmake.org/
 [mayavi-build]: http://docs.enthought.com/mayavi/mayavi/installation.html
+[ets-bin]: http://pythonxy.googlecode.com/files/EnthoughtToolSuite-4.2.0-1_py27.exe
+[mingw]: http://mingw.org/
 
 Dependencies
 ------------
