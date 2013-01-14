@@ -29,6 +29,14 @@ The easiest way to get all of the dependencies in Windows is to use a special Py
 4. (optional) If you're using regular Python, rather than EPD, you'll need to install or build VTK. Python(x,y) bundles an [installer][vtk-bin] which is listed on the [standard plugins][pxy-plug] page. If you want to try building VTK from source, you'll also need [CMake][cmake], a compiler such as MinGW or Visual Studio, and a very large bottle of whiskey.
 5. [Build Mayavi][mayavi-build] from source. You could also try installing the ETS package from the Python(x,y) standard plugins.
 
+[pxy]: http://code.google.com/p/pythonxy/
+[epd]: http://www.enthought.com/products/epd.php
+[epd-free]: http://www.enthought.com/products/epd_free.php
+[vtk-bin]: http://pythonxy.googlecode.com/files/vtk-5.10.0_py27.exe
+[pxy-plug]: http://code.google.com/p/pythonxy/wiki/StandardPlugins
+[cmake]: http://www.cmake.org/
+[mayavi-build]: http://docs.enthought.com/mayavi/mayavi/installation.html
+
 Dependencies
 ------------
 
@@ -67,11 +75,3 @@ Dependencies
 [jpl]: http://pypi.python.org/pypi/jplephem/
 [de405]: http://pypi.python.org/pypi/de405
 [sgp4]: http://pypi.python.org/pypi/sgp4/
-
-[pxy]: http://code.google.com/p/pythonxy/
-[epd]: http://www.enthought.com/products/epd.php
-[epd-free]: http://www.enthought.com/products/epd_free.php
-[vtk-bin]: http://pythonxy.googlecode.com/files/vtk-5.10.0_py27.exe
-[pxy-plug]: http://code.google.com/p/pythonxy/wiki/StandardPlugins
-[cmake]: http://www.cmake.org/
-[mayavi-build]: http://docs.enthought.com/mayavi/mayavi/installation.html
